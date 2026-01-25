@@ -4694,6 +4694,10 @@ input, select, textarea {
 }
 
 	
+	a.image.main img {
+		aspect-ratio: 16 /9;
+		object-fit: cover;
+	}
 
 
 
