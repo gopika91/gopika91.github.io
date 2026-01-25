@@ -4693,9 +4693,11 @@ input, select, textarea {
 	display: none !important;
 }
 /* Force all project images to same size */
-.project img {
+.image img {
 	width: 100%;
-	height: 220px;
+	height: 250px;
 	object-fit: cover;
+	display: block;
 }
+
 
