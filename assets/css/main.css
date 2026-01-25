@@ -4692,3 +4692,10 @@ input, select, textarea {
 #navPanelToggle{
 	display: none !important;
 }
+/* Force all project images to same size */
+.project img {
+	width: 100%;
+	height: 220px;
+	object-fit: cover;
+}
+
